@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_account"
+        android:title="Home"/>
+
+    <item android:id="@+id/nav_setting"
+        android:title="Tecniche di coltivazione"/>
+
+    <item android:id="@+id/nav_logout"
+        android:title="Lo stato della Cannabis"/>
+
+    <item android:id="@+id/nav_fatti_segreti"
+        android:title="Fatti segreti"/>
+
+</menu>
