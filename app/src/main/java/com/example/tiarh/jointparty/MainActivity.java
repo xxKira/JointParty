@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
         if(mToggle.onOptionsItemSelected(item)) {
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 }
