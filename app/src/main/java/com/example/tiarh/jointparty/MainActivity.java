@@ -81,6 +81,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 Toast.makeText(getApplicationContext(), "FATTI SEGRETI", Toast.LENGTH_LONG).show();
                 home_txt.setText("FATTI SEGRETI");
                 break;
+            case R.id.nav_impostazioni:
+                Toast.makeText(getApplicationContext(), "IMPOSTAZIONI", Toast.LENGTH_LONG).show();
+                home_txt.setText("IMPOSTAZIONI");
+                break;
         }
         mDrawerLayout.closeDrawer(GravityCompat.START);
         return true;
