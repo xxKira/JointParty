@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:id="@+id/nav_account"
+    <item android:id="@+id/nav_home"
         android:title="Home"
-        android:icon="@mipmap/baseline_home_black_24"/>
+        android:icon="@mipmap/baseline_home_black_24" />
 
-    <item android:id="@+id/nav_setting"
+    <item android:id="@+id/nav_coltivazione"
         android:title="Tecniche di coltivazione"
         android:icon="@mipmap/marijuana"/>
 
-    <item android:id="@+id/nav_logout"
+    <item android:id="@+id/nav_leggi"
         android:title="Lo stato della Cannabis"
         android:icon="@mipmap/baseline_flag_black_24"/>
 
