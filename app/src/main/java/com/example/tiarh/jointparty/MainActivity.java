@@ -2,31 +2,31 @@ package com.example.tiarh.jointparty;
 
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.Fragment;
 import android.support.v4.view.GravityCompat;
+import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
+    ////////////////////////// MENU LATERALE //////////////////////////
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mToggle;
     private NavigationView navigationView;
 
-    public static TextView home_txt;
-
+    ////////////////////////// FRAGMENT //////////////////////////
+    private PageAdapter mPageAdapter;
+    private ViewPager mViewPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        home_txt = findViewById(R.id.home_txt);
-
 
         ////////////////////////// MENU LATERALE //////////////////////////
 
@@ -39,8 +39,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         navigationView.setNavigationItemSelectedListener(this);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-    }
 
+        ////////////////////////// FRAGMENT //////////////////////////
+
+        mPageAdapter = new PageAdapter(getSupportFragmentManager());
+        mViewPager = (ViewPager) findViewById(R.id.view_pager);
+        setupViewPager(mViewPager);
+    }
 
 
     ////////////////////////// MENU LATERALE //////////////////////////
@@ -66,27 +71,38 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch(item.getItemId()){
             case R.id.nav_home:
-                Toast.makeText(getApplicationContext(), "HOME", Toast.LENGTH_LONG).show();
-                home_txt.setText("HOME");
+                setViewPager(0);
                 break;
             case R.id.nav_coltivazione:
-                Toast.makeText(getApplicationContext(), "TECNICHE DI COLTIVAZIONE", Toast.LENGTH_LONG).show();
-                home_txt.setText("TECNICHE DI COLTIVAZIONE");
+                setViewPager(1);
                 break;
             case R.id.nav_leggi:
-                Toast.makeText(getApplicationContext(), "LO STATO DELLA CANNABIS", Toast.LENGTH_LONG).show();
-                home_txt.setText("LO STATO DELLA CANNABIS");
+                setViewPager(2);
                 break;
             case R.id.nav_fatti_segreti:
-                Toast.makeText(getApplicationContext(), "FATTI SEGRETI", Toast.LENGTH_LONG).show();
-                home_txt.setText("FATTI SEGRETI");
+                setViewPager(3);
                 break;
             case R.id.nav_impostazioni:
-                Toast.makeText(getApplicationContext(), "IMPOSTAZIONI", Toast.LENGTH_LONG).show();
-                home_txt.setText("IMPOSTAZIONI");
+                setViewPager(4);
                 break;
         }
         mDrawerLayout.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    ////////////////////////// FRAGMENT //////////////////////////
+
+    private void setupViewPager(ViewPager viewPager){
+        PageAdapter adapter = new PageAdapter(getSupportFragmentManager());
+        adapter.addFragment(new HomeFragment(), "HomeFragment");
+        adapter.addFragment(new TecnicheFragment(), "TecnicheFragment");
+        adapter.addFragment(new LeggiFragment(), "LeggiFragment");
+        adapter.addFragment(new FattiSegretiFragment(), "FattiSegretiFragment");
+        adapter.addFragment(new ImpostazioniFragment(), "ImpostazioniFragment");
+        viewPager.setAdapter(adapter);
+    }
+
+    private void setViewPager(int fragmentNumber) {
+        mViewPager.setCurrentItem(fragmentNumber);
     }
 }
