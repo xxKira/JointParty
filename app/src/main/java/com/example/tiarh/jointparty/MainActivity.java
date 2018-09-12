@@ -1,5 +1,6 @@
 package com.example.tiarh.jointparty;
 
+import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
@@ -10,6 +11,8 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.MotionEvent;
+import android.view.View;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -22,6 +25,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     ////////////////////////// FRAGMENT //////////////////////////
     private PageAdapter mPageAdapter;
     private ViewPager mViewPager;
+    NonSwipeableViewPager nonSwipeableViewPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,8 +47,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         mPageAdapter = new PageAdapter(getSupportFragmentManager());
         mViewPager = (ViewPager) findViewById(R.id.view_pager);
         setupViewPager(mViewPager);
-    }
 
+
+    }
 
     ////////////////////////// MENU LATERALE //////////////////////////
 
@@ -103,4 +108,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private void setViewPager(int fragmentNumber) {
         mViewPager.setCurrentItem(fragmentNumber);
     }
+
+
 }
