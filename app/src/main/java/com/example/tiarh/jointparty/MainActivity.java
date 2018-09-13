@@ -1,9 +1,8 @@
 package com.example.tiarh.jointparty;
 
-import android.content.Context;
+
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
-import android.support.v4.app.Fragment;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
@@ -11,9 +10,8 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.MotionEvent;
 import android.view.View;
-import android.widget.TextView;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -24,7 +22,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     ////////////////////////// FRAGMENT //////////////////////////
     private PageAdapter mPageAdapter;
-    private ViewPager mViewPager;
+    private static ViewPager mViewPager;
     NonSwipeableViewPager nonSwipeableViewPager;
 
     @Override
@@ -47,15 +45,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         mPageAdapter = new PageAdapter(getSupportFragmentManager());
         mViewPager = (ViewPager) findViewById(R.id.view_pager);
         setupViewPager(mViewPager);
-
-
     }
 
     ////////////////////////// MENU LATERALE //////////////////////////
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        if(mToggle.onOptionsItemSelected(item)) {
+        if (mToggle.onOptionsItemSelected(item)) {
             return true;
         }
         return super.onOptionsItemSelected(item);
@@ -63,7 +59,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     @Override
     public void onBackPressed() {
-        if(mDrawerLayout.isDrawerOpen(GravityCompat.START)) {
+        if (mDrawerLayout.isDrawerOpen(GravityCompat.START)) {
             mDrawerLayout.closeDrawer(GravityCompat.START);
         } else {
             super.onBackPressed();
@@ -72,21 +68,26 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-        switch(item.getItemId()){
+        switch (item.getItemId()) {
             case R.id.nav_home:
                 setViewPager(0);
+                setTitle("Home");
                 break;
             case R.id.nav_coltivazione:
                 setViewPager(1);
+                setTitle("Metodi di coltivazione");
                 break;
             case R.id.nav_leggi:
                 setViewPager(2);
+                setTitle("Lo Stato della Cannabis");
                 break;
             case R.id.nav_fatti_segreti:
                 setViewPager(3);
+                setTitle("Fatti Segreti");
                 break;
             case R.id.nav_impostazioni:
                 setViewPager(4);
+                setTitle("Impostazioni");
                 break;
         }
         mDrawerLayout.closeDrawer(GravityCompat.START);
@@ -95,19 +96,24 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     ////////////////////////// FRAGMENT //////////////////////////
 
-    private void setupViewPager(ViewPager viewPager){
+    private void setupViewPager(ViewPager viewPager) {
         PageAdapter adapter = new PageAdapter(getSupportFragmentManager());
         adapter.addFragment(new HomeFragment(), "HomeFragment");
         adapter.addFragment(new TecnicheFragment(), "TecnicheFragment");
         adapter.addFragment(new LeggiFragment(), "LeggiFragment");
         adapter.addFragment(new FattiSegretiFragment(), "FattiSegretiFragment");
         adapter.addFragment(new ImpostazioniFragment(), "ImpostazioniFragment");
+        adapter.addFragment(new Metodo1Fragment(), "Metodo1Fragment");
         viewPager.setAdapter(adapter);
     }
 
-    private void setViewPager(int fragmentNumber) {
+    public static void setViewPager(int fragmentNumber) {
         mViewPager.setCurrentItem(fragmentNumber);
     }
 
+    ////////////////////////// GESTIONE PULSANTI //////////////////////////
 
+    public void metodo1(View v){
+        MainActivity.setViewPager(5);
+    }
 }

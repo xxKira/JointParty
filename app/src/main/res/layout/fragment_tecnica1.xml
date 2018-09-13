@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/paddig"
+    android:paddingBottom="@dimen/paddig"
+    android:paddingStart="@dimen/paddig"
+    android:paddingEnd="@dimen/paddig">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/metodo1_titolo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/paddig"
+                android:background="@color/colorPrimary"
+                android:text="@string/titolo_metodo1"
+                android:textColor="@color/Bianco"
+                android:textStyle="bold"
+                android:textAppearance="@android:style/TextAppearance.Large"/>
+
+<!-- METODO 1 PASSO 1 -->
+            <TextView
+                android:id="@+id/metodo1_sottotitolo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/metodo1_titolo1"
+                android:padding="@dimen/paddig"
+                android:text="@string/sottoTitolo_metodo1_passo1"
+                android:textAppearance="@android:style/TextAppearance" />
+
+            <TextView
+                android:id="@+id/metodo1_contenuto1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/metodo1_sottotitolo1"
+                android:text="@string/contenuto_metodo1_passo1"
+                android:lineSpacingExtra="5sp" />
+
+            <ImageView
+                android:id="@+id/metodo1_immagine1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/metodo1_passo1"
+                android:layout_below="@id/metodo1_contenuto1"/>
+
+<!-- METODO 1 PASSO 2 -->
+            <TextView
+                android:id="@+id/metodo1_sottotitolo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/metodo1_immagine1"
+                android:padding="@dimen/paddig"
+                android:text="@string/sottoTitolo_metodo1_passo2"
+                android:textAppearance="@android:style/TextAppearance" />
+
+            <ImageView
+                android:id="@+id/metodo1_immagine2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/metodo1_passo2"
+                android:layout_below="@id/metodo1_sottotitolo2"/>
+
+            <TextView
+                android:id="@+id/metodo1_contenuto2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/metodo1_immagine2"
+                android:text="@string/contenuto_metodo1_passo2"
+                android:lineSpacingExtra="5sp" />
+
+<!-- METODO 1 PASSO 3 -->
+            <TextView
+                android:id="@+id/metodo1_sottotitolo3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/metodo1_contenuto2"
+                android:padding="@dimen/paddig"
+                android:text="@string/sottoTitolo_metodo1_passo3"
+                android:textAppearance="@android:style/TextAppearance" />
+
+            <ImageView
+                android:id="@+id/metodo1_immagine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/metodo1_passo3"
+                android:layout_below="@id/metodo1_sottotitolo3"/>
+
+            <TextView
+                android:id="@+id/metodo1_contenuto3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/metodo1_immagine3"
+                android:text="@string/contenuto_metodo1_passo3"
+                android:lineSpacingExtra="5sp" />
+
+<!-- METODO 1 PASSO 4 -->
+            <TextView
+                android:id="@+id/metodo1_sottotitolo4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/metodo1_contenuto3"
+                android:padding="@dimen/paddig"
+                android:text="@string/sottoTitolo_metodo1_passo4"
+                android:textAppearance="@android:style/TextAppearance" />
+
+            <ImageView
+                android:id="@+id/metodo1_immagine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/metodo1_passo4"
+                android:layout_below="@id/metodo1_sottotitolo4"/>
+
+            <TextView
+                android:id="@+id/metodo1_contenuto4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/metodo1_immagine4"
+                android:text="@string/contenuto_metodo1_passo4"
+                android:lineSpacingExtra="5sp" />
+
+<!-- METODO 1 PASSO 5-->
+            <TextView
+                android:id="@+id/metodo1_sottotitolo5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/metodo1_contenuto4"
+                android:padding="@dimen/paddig"
+                android:text="@string/sottoTitolo_metodo1_passo5"
+                android:textAppearance="@android:style/TextAppearance" />
+
+            <ImageView
+                android:id="@+id/metodo1_immagine5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/metodo1_passo5"
+                android:layout_below="@id/metodo1_sottotitolo5"/>
+
+            <TextView
+                android:id="@+id/metodo1_contenuto5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/metodo1_immagine5"
+                android:text="@string/contenuto_metodo1_passo5"
+                android:lineSpacingExtra="5sp" />
+
+<!-- METODO 1 PASSO 6-->
+            <TextView
+                android:id="@+id/metodo1_sottotitolo6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/metodo1_contenuto5"
+                android:padding="@dimen/paddig"
+                android:text="@string/sottoTitolo_metodo1_passo6"
+                android:textAppearance="@android:style/TextAppearance" />
+
+            <ImageView
+                android:id="@+id/metodo1_immagine6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/metodo1_passo6"
+                android:layout_below="@id/metodo1_sottotitolo6"/>
+
+            <TextView
+                android:id="@+id/metodo1_contenuto6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/metodo1_immagine6"
+                android:text="@string/contenuto_metodo1_passo6"
+                android:lineSpacingExtra="5sp" />
+
+<!-- METODO 1 PASSO 6-->
+            <TextView
+                android:id="@+id/metodo1_sottotitolo7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/metodo1_contenuto6"
+                android:padding="@dimen/paddig"
+                android:text="@string/sottoTitolo_metodo1_passo7"
+                android:textAppearance="@android:style/TextAppearance" />
+
+            <ImageView
+                android:id="@+id/metodo1_immagine7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/metodo1_passo7"
+                android:layout_below="@id/metodo1_sottotitolo7"/>
+
+            <TextView
+                android:id="@+id/metodo1_contenuto7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/metodo1_immagine7"
+                android:text="@string/contenuto_metodo1_passo7"
+                android:lineSpacingExtra="5sp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

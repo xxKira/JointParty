@@ -3,4 +3,166 @@
     <string name="apri">Apri</string>
     <string name="chiudi">Chiudi</string>
 
+<!-- METODO 1 -->
+    <!-- Preso da https://www.royalqueenseeds.it/content/145-i-7-semplici-passi-per-coltivare-la-cannabis -->
+
+<!-- PASSO 1 -->
+    <string name="titolo_metodo1">7 Semplici passaggi per coltivare l\'erba</string>
+    <string name="sottoTitolo_metodo1_passo1">PASSO 1: SCEGLIERE I SEMI DI CANNABIS</string>
+    <string name="contenuto_metodo1_passo1">La scelta a disposizione è straordinaria. Sativa, indica, ruderalis, ogni tipo di ibrido, tutto disponibile in un semplice click. Saprete già cosa vi piace dalla vostra esperienza personale. Quali varietà sono state più adatte al vostro umore e necessità in passato? Quali varietà hanno fornito un sollievo soddisfacente per i vostri disturbi fisici? Questo è probabilmente un buon punto per iniziare.
+Tenendo a mente il vostro gusto personale, iniziate a pensare alle vostre condizioni di coltivazione. Volete coltivare in un piccolo armadio dove le piante piccole e a rapida maturazione come le varietà autofiorenti o le indica saranno più adatte per lo spazio ristretto? O avete un bel giardino dove poter coltivare una o più varietà giganti direttamente nel terreno o in larghi vasi?</string>
+
+<!-- PASSO 2 -->
+    <string name="sottoTitolo_metodo1_passo2">PASSO 2: NOZIONI FONDAMENTALI SULLA CANNABIS</string>
+    <string name="contenuto_metodo1_passo2">Per coltivare al meglio ed ottenere le gemme più succose, dovete sapere che la vostra amata cannabis ha bisogno di alcuni elementi fondamentali.\n
+        \n
+        <b>LUCE:</b> Per una crescita vegetativa sana, la marijuana ha bisogno di oltre dodici ore di luce in un periodo temporale di ventiquattro ore. In ambiente chiuso ciò può essere controllato da voi tramite dei timer. La germinazione all\'aperto deve essere rinviata fino a quando le piante potranno essere esposte ad oltre dodici ore di luce diurna e ricevere almeno otto ore di luce solare diretta al giorno.\n
+        \n
+        <b>TERRENO DI COLTIVAZIONE:</b> I coltivatori organici useranno di volta in volta una certa tipologia di terreno, al chiuso o all\'aperto. Ad ogni modo, il terreno non è l\'unica opzione. I terreni neutri, completamente dipendenti dai nutrienti, includono fibra di cocco, perlite, vermiculite o lana di roccia. Le coltivazione aeroponiche, idroponiche pure o in deep water culture (DWC), sono totalmente prive di terreno. In questi contesti le radici sospese assorbono i nutrimenti direttamente dal mix nutritivo.\n
+        \n
+        <b>ARIA:</b> Per un vigoroso e adeguato scambio di gas, la cannabis ha bisogno di ricircolo di aria fresca. All\'aperto ciò non è un problema, le vostre piante saranno esposte a brezze e burrasche. Al chiuso, le piante avranno bisogno di aria sempre fresca, un tubo per aspirare l\'aria stantia ed una ventola per muovere l\'aria. Inoltre, le condizioni ambientali possono favorire parassiti, muffe e crescita debole. Un accumulo di gas esausti potrebbe inibire la crescita delle piante.\n
+        \n
+        <b>ACQUA:</b> Come tutti gli esseri viventi la cannabis ha bisogno di acqua per crescere, prosperare, e svolgere le sue funzioni biologiche. Se vivete in zone in cui piove regolarmente, le vostre piante all\'aperto probabilmente avranno dalla natura tutto ciò di cui hanno bisogno. Le piante di cannabis grandi sono notoriamente sempre assetate. Se volete coltivare in grande, avrete sicuramente bisogno di integrare l\'apporto di acqua tra una pioggia e l\'altra.\n
+        \n
+        Al chiuso, l\'acqua diventa il mezzo per trasportare le sostanze nutritive. L\'acqua non modificata viene usata per risciacquare regolarmente i sistemi idroponici e senza suolo. Il pH dell\'acqua è molto importante. Il coltivatore di cannabis saggio ha un buon misuratore di pH per completare il suo kit di coltivazione.\n
+        \n
+        <b>TEMPERATURA:</b> La cannabis è una pianta molto resistente e riesce a sopravvivere in climi caldi e freddi. Proprio come voi e me, però, può stressarsi e non funzionare a dovere in condizioni estreme. La cannabis può congelare o bollire fino alla morte. Potrebbe interrompere la sua crescita o entrare in una fase di inerzia. Entrerà in modalità di sopravvivenza se le temperatura restano troppo alte o troppo basse per un lungo periodo di tempo. Ventisette gradi centigradi è la temperatura ideale per una crescita rigogliosa delle piante di cannabis. Al chiuso è facile raggiungere questo obiettivo tramite l\'uso di ventole, unità di aria condizionata, tappetini riscaldanti o raffreddanti. La luce genererà sicuramente calore, che dovrà essere dissipato.\n
+        \n
+        All\'aperto, dovete scegliere le giuste tempistiche. Dovete conoscere a fondo il clima in cui vivete. Procuratevi una app o un grafico del ciclo solare e fate in modo di prendere i giusti tempi. Se è troppo presto rischiate di far fiorire le vostre piante immediatamente, e farle entrare di nuovo in fase vegetativa quando la luce del giorno aumenta. Questo va evitato. I fiori non si formeranno in modo adeguato se la fioritura inizia precocemente. Viceversa, se è troppo tardi avrete piante piccole con pochi fiori.\n
+        \n
+        <b>SOSTANZE NUTRITIVE:</b> Come tutti gli esseri viventi la cannabis ha anche bisogno di nutrimento per crescere. Un buon mix di terreno friabile, ricco di compost, organismi viventi, vitamine e minerali, può fornire alle vostre piante cibo a sufficienza per il loro intero ciclo vitale.\n
+        \n
+        Innaffiate con tè di compost (compost liquido) ed altri mix organici come melassa o farina di piume per migliorare la qualità del suolo e favorire una crescita sana per le vostre piante. Nei sistemi idroponici o suoli neutri, fornite tutta l\'energia alle vostre piante con miscele di nutrienti pre-confezionate. Spesso alcune sono fatte appositamente per le piante di marijuana. Le misture speciali sono realizzate esclusivamente per qualsiasi metodo di coltivazione senza suolo.\n
+        \n
+        <b>UMIDITÀ:</b> All\'aperto non avrete il controllo di questo elemento e sarete in balia del clima. Il lato positivo è che le variazioni di umidità e le robuste funzioni biologiche necessarie all\'adattamento in condizioni mutevoli, renderanno le vostre piante straordinariamente forti!\n
+        \n
+        Al chiuso, il controllo dell\'umidità è molto importante, dal seme al fiore. Una delle funzioni giornaliere delle foglie è quella di assorbire l\'umidità atmosferica. Un livello di umidità appropriato favorisce un ambiente sano, privo di parassiti e muffe.\n
+        \n
+        Armadietti, tende per coltivazione o grow room dedicate. Direttamente nel terreno o in vasi all\'aperto. Anche in un giardino con piante d\'accompagnamento la vostra marijuana dovrà soddisfare le sue esigenze per crescere sana e offrirvi gemme piene di resina di alta qualità.
+    </string>
+
+<!-- PASSO 3 -->
+    <string name="sottoTitolo_metodo1_passo3">PASSO 3: LUCI PER LA COLTIVAZIONE DI CANNABIS INDOOR</string>
+    <string name="contenuto_metodo1_passo3">Grazie alla legalizzazione, c\'è stato un boom nella scelta di luci e camere di coltivazione per coltivare cannabis indoor.\n
+        \n
+        Qui potete scegliere in base al budget che avete a disposizione.\n
+        \n
+        <b>ARMADI PER COLTIVAZIONE:</b> Realizzati grazie a decenni di esperienza diretta, sono disponibili armadi per coltivazione totalmente adattati alla coltivazione di cannabis e pronti all\'uso. Questo se avete migliaia di euro da spendere. Luci, ventole, spazio per separare cloni, camere di vegetazione e fioritura, timer e filtri a carbone sono tutti installati e pronti all\'uso.\n
+        \n
+        <b>LUCI PER OGNI BUDGET:</b> All\'opposto, potete procurarvi un set rudimentale di lampadine fluorescenti compatte (CFL) o piccoli pannelli a LED (Light Emitting Diode), per meno di trecento euro. Altre luci fluorescenti compatte come le luci lineari T5 sono disponibili in varie gamme di potenza per fase vegetativa e di fioritura, e sono adatte anche a spazi ristretti.\n
+        \n
+        Le lampade al sodio ad alta pressione (HPS - High-Pressure Sodium) e le lampade ad alogenuri metallici (MH - Metal Halide) sono tipologie tradizionali adatte per la coltivazione. Una lampada HPS da 1000W con riflettori, può illuminare in modo efficace uno spazio di 1,5x1,5 metri e favorire una crescita ottimale. Allo stesso modo, una lampada MH da 600W può illuminare la stessa area e agevolare la produzione di fiori di prima qualità alla fine del ciclo di crescita. Il calore generato da queste luci è un elemento che va tenuto in considerazione. Se il calore non viene dissipato in modo adeguato, il vostro ambiente di coltivazione diventerà presto troppo caldo per un corretto sviluppo delle piante.
+    </string>
+
+<!-- PASSO 4 -->
+    <string name="sottoTitolo_metodo1_passo4">PASSO 4: GERMINAZIONE E PIANTINE DI MARIJUANA</string>
+    <string name="contenuto_metodo1_passo4">All\'inizio della vostra avventura nella coltivazione della cannabis, c\'è la germinazione dei semi. Ogni seme contiene tutte le informazioni necessarie per formare la varietà di pianta che avete scelto. Gli servono solo le giuste condizioni ambientali, e inizierà il suo ciclo vitale. I semi non germoglieranno finché non sono stati raggiunti tre specifici obiettivi. Acqua, corretta temperatura (calore), e buon posizionamento.\n
+        \n
+        Coltivare la cannabis è un processo naturale, senza regole rigide. Non è un sistema lineare che va semplicemente imparato, ma un\'arte da padroneggiare con l\'esperienza. Esistono vari metodi, tutti ugualmente efficaci, per far germogliare la cannabis. Con il passare del tempo scoprirete il metodo più adatto a voi.\n
+        \n
+        <b>DIRETTAMENTE NEL TERRENO:</b> Posizionate i semi direttamente nel terreno. Questo eviterà qualsiasi stress o shock da trapianto. Spesso è più semplice far germogliare i semi in un vaso piccolo, e poi spostare le piantine nella terra del giardino o in vasi più grandi.\n
+        \n
+        <b>TOVAGLIOLO DI CARTA:</b> I semi vanno messi su un tovagliolo di carta umido posizionato su un piatto, e tenuti in un ambiente buio e caldo. In genere si ricoprono con un telo di plastica o un piatto rovesciato per trattenere l\'umidità. Dopo alcuni giorni o una settimana, i semi saranno germogliati.\n
+        \n
+        <b>STARTER IN CUBETTI, VASETTI E LANA DI ROCCIA:</b> Facili da gestire, perché con essi è possibile avere cinquanta semi in fase di germoglio in poco spazio. Dopo che le piantine sono spuntate, potete trasferirle nella destinazione finale senza danneggiare le radici.\n
+        \n
+        <b>IN ACQUA:</b> Immergete semplicemente i semi in acqua arricchita con enzimi, finché vedrete spuntare la radice a fittone, quindi trasferiteli nel terreno. Le piantine cresceranno in fretta e spunteranno dalla superficie una settimana dopo circa.\n
+        \n
+        <b>SERRE DI GERMINAZIONE:</b> Le serre di germinazione offrono un controllo sostanziale sull\'ambiente di germinazione, in particolare sui livelli di umidità e temperatura, e possono accelerare i tempi di germinazione.\n
+        \n
+        Quando le vostre piante emergono dalla superficie e i cotiledoni hanno completato la muta del seme, rivelando il primo set di vere foglie, ha inizio la fotosintesi. Ora avete una vera e propria piantina di marijuana, pronta a diventare una piccola miniatura produttrice di resina indoor, o uno spettacolare albero all\'aperto.
+    </string>
+
+<!-- PASSO 5 -->
+    <string name="sottoTitolo_metodo1_passo5">PASSO 5: LA FASE VEGETATIVA DELLA CANNABIS</string>
+    <string name="contenuto_metodo1_passo5">Nel momento in cui le foglie verdi incontrano la luce, inizia la vera fotosintesi. La pianta avvia il suo metabolismo ed inizia la fase vegetativa.\n
+        \n
+        <b>INDOORS:</b> Le luci vanno impostate ad un regime di diciotto ore di luce, e sei ore di buio. Ciò non va necessariamente coordinato con le ore diurne e notturne reali, potete impostare il ciclo luce/buio come meglio preferite. Attivando le apparecchiature elettriche nelle ore non di punta potrete risparmiare parecchi soldi.\n
+        \n
+        Le vostre piante saranno felici in un terreno organico o se vengono nutrite con sostanze apposite per la fase vegetativa. Un\'abbondante ventilazione forzata manterrà le temperature sotto controllo e rafforzerà le vostre giovani piante. Si possono utilizzare anche metodi più particolari come aggiungere anidride carbonica all\'ambiente. Il Low-stress training e lo scrogging possono essere utilizzati per aumentare il tasso di crescita e il potenziale di fioritura della cannabis coltivata al chiuso.\n
+        \n
+        <b>Quanto Dura La Fase Vegetativa?</b>\n
+        \n
+        La fase vegetativa può durare per tutto il tempo che volete. Dipende se desiderate molte piante piccole che riempiono lo spazio come con il metodo di coltivazione Sea Of Green. Oppure, se scegliete di avere poche piante grandi, su cui effettuare cimatura e mainlining per produrre grossi gruppi di fiori.\n
+        \n
+        <b>ALL\'APERTO:</b> La cannabis cresce rapidamente quando le ore di luce iniziano ad aumentare, in primavera e in estate. Uno spazio illimitato per le radici e genetiche di qualità permetteranno alla pianta di raggiungere i tre o quattro metri di altezza durante la fase vegetativa.\n
+        \n
+        La maggior parte delle piante moderne subisce cimatura e sfrondatura continui durante l\'intera fase di crescita. Ciò favorisce la formazione della chioma che sarà riempita in modo omogeneo dalle gemme nella fase di fioritura. La cannabis continua a vegetare finché ci sono più di dodici ore di luce. Più si è lontani dall\'equatore, più la cannabis avrà una fase vegetativa breve prima di iniziare a fiorire.
+    </string>
+
+<!-- PASSO 6 -->
+    <string name="sottoTitolo_metodo1_passo6">PASSO 6: LA FASE DI FIORITURA IN UNA PIANTA DI MARIJUANA SANA</string>
+    <string name="contenuto_metodo1_passo6">La fioritura è l\'ultima fase di crescita della pianta di marijuana. Questo sarà un periodo emozionante, pieno di aromi che iniziano a formarsi. Iniziano inoltre ad emergere interessanti disposizioni floreali, in base alla varietà che si sta coltivando. La fase di fioritura ha stadi caratteristici comuni a tutte le piante di cannabis, ed inizia quando la fase vegetativa è terminata.\n
+        \n
+        All\'aperto il primo stadio di fioritura può essere notato quando il calore estivo giunge al termine e si avvicina l\'autunno. Al chiuso, potete controllare l\'inizio della fase di fioritura cambiando l\'orario di illuminazione, impostando un fotoperiodo di dodici ore di luce e dodici ore di buio. A seconda della specie, la cannabis può fiorire in risposta a tre possibili caratteristiche.\n
+        \n
+        A seconda della specie, la cannabis reagisce a variazioni ormonali, proseguendo nella fase vegetativa o iniziando la fioritura. Esistono due tipologie di piante: APD (fotoperiodiche) e autofiorenti:\n
+        \n
+        <ul>
+            <li>Le piante APD (Absolute Photo Determinate), ovvero fotoperiodiche, seguono le variazioni di un ormone sensibile alla luce per continuare la fase vegetativa. Questo ormone, quando è attivo, evita l\'avvio della fioritura nella pianta. Quando i livelli di luce si abbassano, e le notti diventano più lunghe, l\'ormone si disattiva. Dodici ore o più di buio provocheranno quindi la fioritura della pianta.</li>\n
+        \n
+            <li>Nelle varietà autofiorenti, questo stesso ormone è legato all\'età della pianta. La pianta interrompe la produzione dell\'ormone quando raggiunge una determinata età, a seconda della specie. Inizia quindi a fiorire indipendentemente dal fotoperiodo. Ciò può avvenire anche dopo due sole settimane dalla germinazione.</li>\n
+        \n
+        </ul>
+        <b>I Diversi Stadi Della Fioritura</b>\n
+        \n
+        <b>DIFFERENZIAZIONE:</b> All\'inizio della fase di fioritura si può notare un evidente cambiamento nel modello di sviluppo della pianta. Invece di una crescita allungata e simmetrica della vegetazione, i rami iniziano a crescere a zig-zag e diventano più compressi, con minor distanza tra i nodi. La fase di differenziazione è molto evidente.\n
+        \n
+        <b>FIORITURA:</b> I fiori seguono le stesse fasi di sviluppo in tutte le specie, ma con differenze nelle tempistiche. Una indica rapida potrà essere trattata e fumata settimane prima di una sativa a lunga maturazione.\n
+        \n
+        Poco dopo la differenziazione, i fiori iniziano a formarsi. I calici emergono negli internodi dei rami e sviluppano rapidamente rotondità coperte di pistilli. La tanto desiderata resina si sta già formando nei giovani tricomi dei pistilli, sui calici e sulla superficie delle foglie.\n
+        \n
+        Le rotondità dei calici iniziano ad allungarsi a punta. Ciò fa spazio a freschi grappoli fluorescenti e alle foglie adiacenti alle gemme. Diversamente dalle foglie di zucchero, queste nuove foglie sono più spesse, più piccole, increspate e piene di tricomi. Infine vengono parzialmente sommerse dai fiori che si ingrossano.\n
+        \n
+        Col passare delle settimane questi gruppi di fiori si moltiplicano e formano larghe cime coperte di resina e tricomi. Lasciati a maturare ulteriormente, i calici e i tricomi grondano abbondanti quantità di resina. La piena maturazione è alle porte.
+    </string>
+
+<!-- PASSO 7 -->
+    <string name="sottoTitolo_metodo1_passo7">PASSO 7: RACCOLTA, ESSICCAZIONE &amp; TRATTAMENTO PER GEMME DI QUALITÀ</string>
+    <string name="contenuto_metodo1_passo7">Durante le ultime settimane, i nutrimenti vengono ignorati e la vostra pianta dovrà essere innaffiata con acqua pura. Ciò garantirà un sapore genuino delle gemme, privo di retrogusti salati o di sostanze nutritive.\n
+        \n
+        <b>Quando è matura la cannabis?</b>
+        \n
+        Coperti di abbondanti tricomi, i pistilli iniziano a seccarsi e a cambiare colore. Tonalità arancione scuro, malva, marrone o scarlatto possono emergere a seconda delle specie. I gonfi sacchi di resina iniziano a cambiare colore su tutta la pianta. Prima passano dal trasparente al color latte, poi diventano color ambra. I gruppi di fiori sono così gonfi che sembrano rovesciati.\n
+        \n
+        Questo segnale indica che è ora di raccogliere i risultati del vostro duro lavoro.\n
+        \n
+        <ul>
+            <li>Per ottenere valori di THC più elevati procedete al raccolto quando i tricomi sono al 20-30% color ambra.</li>\n
+        \n
+            <li>Per un contenuto di cannabinoidi più ampio, raccogliete quando i tricomi sono al 60-80% ambra. Controllate le piante con attenzione perché le differenze possono verificarsi nell\'arco di ventiquattro ore.</li>\n
+        </ul>
+        <b>Raccogliere la pianta di marijuana</b>\n
+        \n
+        Non esiste una regola precisa per raccogliere.
+        \n
+        Usate la fantasia e imparate con l\'esperienza. Alcuni eseguono un "wet trim", ovvero rimuovono tutte le foglie mentre la pianta è ancora in piedi, e poi la spezzano. Quindi appendono i rami ad essiccare o posizionano le singole gemme su una rastrelliera di essiccazione. Alcuni rimuovono solo le foglie di zucchero più grandi, poi raccolgono e appendono l\'intera pianta.\n
+        \n
+        Non esistono regole, tranne quella di fare attenzione quando maneggiate le piante. Dovete evitare di rovinare i delicati tricomi e disturbarli il meno possibile.\n
+        \n
+        <b>Essiccare e trattare la cannabis</b>\n
+        \n
+        Essiccate le vostre gemme in luogo fresco e buio, con poca umidità. Idealmente, questo processo è molto lento e richiede un minimo di due settimane.\n
+        \n
+        <b>Controllate spesso le gemme per evitare essiccazione eccessiva o muffa</b>\n
+        \n
+        Quando sono secchi, i rami più sottili si spezzeranno con facilità. I rami più spessi saranno ancora leggermente flessibili.\n
+        \n
+        La clorofilla a questo punto si è degradata e il verde è stato rimpiazzato con altri colori, a seconda della specie. Giallo chiaro, marroncino, verde pallido e perfino blu scuro e viola possono emergere man mano che le gemme si seccano.\n
+        \n
+        <b>Conservare le gemme trattate</b>\n
+        \n
+        A questo punto inserite le gemme in un barattolo di vetro con chiusura ermetica, riempiendolo in modo non eccessivo. Aprite il coperchio o fate "respirare" il barattolo una volta al giorno per le prime due settimane. Ciò permette il rilascio dell\'umidità in eccesso, che potrebbe provocare muffa sulle gemme. Dopo che le gemme sono secche al tatto, arieggiate il barattolo una volta a settimana. Siate diligenti, non vorrete che le vostre settimane di duro lavoro vengano gettate al vento per mancanza di attenzione.\n
+        \n
+        <b>Quanto dura il trattamento della cannabis?</b>\n
+        \n
+        Potete prolungare il trattamento per tutto il tempo che volete. Ricordate che i componenti psicotropi perdono una molecola di acqua quando vengono trattati in modo adeguato, e diventano ancora più psicoattivi. Ciò richiede almeno sei settimane di trattamento in condizioni ideali. Più il trattamento è lungo, più il risultato sarà migliore. Tenete i vostri barattoli in un luogo buio e fresco. Il THC si scompone in altri cannabinoidi se viene esposto alla luce.\n
+        \n
+        Se non siete sicuri della secchezza delle gemme, tenete un campione del vostro raccolto da usare per riferimento futuro. La cannabis essiccata non dà la sensazione di secchezza totale, a causa della vischiosità della resina. Col tempo svilupperete il giusto tocco e le abilità necessarie.\n
+        \n
+        Godersi la propria cannabis ben coltivata non è difficile. Basta un po\' di attenzione e pazienza e otterrete profumati risultati anche nello spazio più ristretto.\n
+        \n
+        <b>Buona coltivazione amici!</b>\n
+    </string>
+
 </resources>
