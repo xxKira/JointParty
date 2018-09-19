@@ -2,10 +2,23 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingTop="@dimen/paddig"
-    android:paddingBottom="@dimen/paddig"
-    android:paddingStart="@dimen/paddig"
-    android:paddingEnd="@dimen/paddig">
+    android:paddingTop="@dimen/padding"
+    android:paddingBottom="@dimen/padding"
+    android:paddingStart="@dimen/padding"
+    android:paddingEnd="@dimen/padding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ciao"/>
+
+    </LinearLayout>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -19,7 +32,7 @@
                 android:id="@+id/metodo1_titolo1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="@dimen/paddig"
+                android:padding="@dimen/padding"
                 android:background="@color/colorPrimary"
                 android:text="@string/titolo_metodo1"
                 android:textColor="@color/Bianco"
@@ -32,7 +45,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/metodo1_titolo1"
-                android:padding="@dimen/paddig"
+                android:padding="@dimen/padding"
                 android:text="@string/sottoTitolo_metodo1_passo1"
                 android:textAppearance="@android:style/TextAppearance" />
 
@@ -57,7 +70,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/metodo1_immagine1"
-                android:padding="@dimen/paddig"
+                android:padding="@dimen/padding"
                 android:text="@string/sottoTitolo_metodo1_passo2"
                 android:textAppearance="@android:style/TextAppearance" />
 
@@ -82,7 +95,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/metodo1_contenuto2"
-                android:padding="@dimen/paddig"
+                android:padding="@dimen/padding"
                 android:text="@string/sottoTitolo_metodo1_passo3"
                 android:textAppearance="@android:style/TextAppearance" />
 
@@ -107,7 +120,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/metodo1_contenuto3"
-                android:padding="@dimen/paddig"
+                android:padding="@dimen/padding"
                 android:text="@string/sottoTitolo_metodo1_passo4"
                 android:textAppearance="@android:style/TextAppearance" />
 
@@ -132,7 +145,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/metodo1_contenuto4"
-                android:padding="@dimen/paddig"
+                android:padding="@dimen/padding"
                 android:text="@string/sottoTitolo_metodo1_passo5"
                 android:textAppearance="@android:style/TextAppearance" />
 
@@ -157,7 +170,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/metodo1_contenuto5"
-                android:padding="@dimen/paddig"
+                android:padding="@dimen/padding"
                 android:text="@string/sottoTitolo_metodo1_passo6"
                 android:textAppearance="@android:style/TextAppearance" />
 
@@ -182,7 +195,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/metodo1_contenuto6"
-                android:padding="@dimen/paddig"
+                android:padding="@dimen/padding"
                 android:text="@string/sottoTitolo_metodo1_passo7"
                 android:textAppearance="@android:style/TextAppearance" />
 

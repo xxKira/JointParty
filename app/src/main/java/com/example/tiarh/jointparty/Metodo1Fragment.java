@@ -14,8 +14,6 @@ import android.widget.Button;
 
 public class Metodo1Fragment extends Fragment{
 
-    Button a;
-
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {

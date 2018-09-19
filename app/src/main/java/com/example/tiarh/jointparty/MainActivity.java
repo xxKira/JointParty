@@ -12,6 +12,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.GridView;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -45,6 +46,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         mPageAdapter = new PageAdapter(getSupportFragmentManager());
         mViewPager = (ViewPager) findViewById(R.id.view_pager);
         setupViewPager(mViewPager);
+
+
     }
 
     ////////////////////////// MENU LATERALE //////////////////////////
@@ -79,7 +82,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
             case R.id.nav_leggi:
                 setViewPager(2);
-                setTitle("Lo Stato della Cannabis");
+                setTitle(" "); //Lo Stato della Cannabis
                 break;
             case R.id.nav_fatti_segreti:
                 setViewPager(3);
@@ -117,3 +120,4 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         MainActivity.setViewPager(5);
     }
 }
+

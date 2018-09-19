@@ -1,14 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/padding"
+    tools:context="com.example.tiarh.jointparty.LeggiFragment">
 
     <TextView
+        android:id="@+id/leggi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="LO STATO DELLA CANNABIS"
+        android:text="LO STATO DELLA CANNABIS. DESCRIZIONE...................................................."
         android:textAlignment="center"
         android:textSize="32dp"
         android:textStyle="normal" />
 
-</LinearLayout>
+        <GridView
+            android:id="@+id/gridview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/leggi"
+            android:numColumns="4">
+
+        </GridView>
+<!--    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/leggi"
+        android:columnCount="4">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/afghanistan"
+            android:background="@color/trasparente"
+            android:padding="@dimen/padding_image"/>
+
+        <ImageButton
+            android:id="@+id/ciao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/albania"
+            android:background="@color/trasparente"
+            android:padding="@dimen/padding_image"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/algeria"
+            android:background="@color/trasparente"
+            android:padding="@dimen/padding_image"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/andorra"
+            android:background="@color/trasparente"
+            android:padding="@dimen/padding_image"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:paddingStart="@dimen/padding_image"
+            android:text="Afghanistan"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:paddingStart="@dimen/padding_image"
+            android:text="Albania"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:paddingStart="@dimen/padding_image"
+            android:text="Algeria"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:paddingStart="@dimen/padding_image"
+            android:text="Andorra" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/antigua_and_barbuda"
+            android:background="@color/trasparente"
+            android:padding="@dimen/padding_image"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/argentina"
+            android:background="@color/trasparente"
+            android:padding="@dimen/padding_image"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/armenia"
+            android:background="@color/trasparente"
+            android:padding="@dimen/padding_image"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/australia"
+            android:background="@color/trasparente"
+            android:padding="@dimen/padding_image"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/austria"
+            android:background="@color/trasparente"
+            android:padding="@dimen/padding_image"/>
+
+    </GridLayout> -->
+
+</RelativeLayout>
