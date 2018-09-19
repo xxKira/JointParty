@@ -110,6 +110,7 @@ public class LeggiFragment extends Fragment {
             R.drawable.jordan,
             R.drawable.kazakhstan,
             R.drawable.kenya};
+
     GridView gridView;
     CustomAdapterBandiere customAdapterBandiere;
 
