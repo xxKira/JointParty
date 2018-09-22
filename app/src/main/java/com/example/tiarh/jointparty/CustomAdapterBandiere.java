@@ -29,12 +29,12 @@ public class CustomAdapterBandiere extends ArrayAdapter<String> {
 
     public View getView(int position, View view, ViewGroup parent) {
         LayoutInflater inflater = Context.getLayoutInflater();
-        View GridViewSingle = inflater.inflate(R.layout.layout_bandiere, null, true);
+        View GridViewSingle = inflater.inflate(R.layout.layout_bandiere, parent, false);
 
         TextView tx = (TextView) GridViewSingle.findViewById(R.id.tx);
         ImageView img = (ImageView) GridViewSingle.findViewById(R.id.img);
 
-        tx.setText(ListItemsName[position]);
+        tx.setText(ListItemsName[position] + "\n");
         img.setImageResource(ImageName[position]);
         return GridViewSingle;
     }
