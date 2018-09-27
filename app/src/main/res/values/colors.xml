@@ -2,7 +2,13 @@
 <resources>
     <color name="colorPrimary">#43b53f</color>
     <color name="colorPrimaryDark">#439f30</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#ffffff</color> <!-- #439f30 -->
     <color name="Bianco">#ffffff</color>
-    <color name="trasparente">#00ffffff</color>
+    <color name="trasparente">#00f50f0f</color>
+
+    <color name="progress_start">#ffffff</color>
+    <color name="progress_end">#ffffff</color>
+
+
+    <color name="Bia">#ff0000</color>
 </resources>

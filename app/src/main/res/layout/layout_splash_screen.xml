@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/fatton_splash_test1">
+
+<!-- <ProgressBar
+        android:id="@+id/progress_login"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:max="100"
+        android:progressBackgroundTintMode="add"
+        android:progressTint="@color/colorPrimaryDark" /> -->
+
+    <ProgressBar
+        android:id="@+id/progress_login"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="32dp"
+        android:indeterminate="true"
+        android:paddingEnd="30dp"
+        android:paddingStart="30dp"/>
+
+
+</RelativeLayout>

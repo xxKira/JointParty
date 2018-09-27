@@ -1,6 +1,7 @@
 package com.example.tiarh.jointparty;
 
 
+
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -11,8 +12,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
-import android.widget.GridView;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -32,9 +31,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         setContentView(R.layout.activity_main);
 
         ////////////////////////// MENU LATERALE //////////////////////////
-        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
+        mDrawerLayout = findViewById(R.id.drawerLayout);
         mToggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.string.apri, R.string.chiudi);
-        navigationView = (NavigationView) findViewById(R.id.nav_menu);
+        navigationView = findViewById(R.id.nav_menu);
 
         mDrawerLayout.addDrawerListener(mToggle);
         mToggle.syncState();
@@ -44,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         ////////////////////////// FRAGMENT //////////////////////////
         mPageAdapter = new PageAdapter(getSupportFragmentManager());
-        mViewPager = (ViewPager) findViewById(R.id.view_pager);
+        mViewPager = findViewById(R.id.view_pager);
         setupViewPager(mViewPager);
 
 
@@ -62,8 +61,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     @Override
     public void onBackPressed() {
+
         if (mDrawerLayout.isDrawerOpen(GravityCompat.START)) {
             mDrawerLayout.closeDrawer(GravityCompat.START);
+        } else if (!mDrawerLayout.isDrawerOpen(GravityCompat.START)) {
+            finishAffinity();
         } else {
             super.onBackPressed();
         }
