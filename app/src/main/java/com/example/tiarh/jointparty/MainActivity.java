@@ -45,8 +45,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         mPageAdapter = new PageAdapter(getSupportFragmentManager());
         mViewPager = findViewById(R.id.view_pager);
         setupViewPager(mViewPager);
-
-
     }
 
     ////////////////////////// MENU LATERALE //////////////////////////
