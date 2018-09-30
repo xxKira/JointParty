@@ -1,36 +1,325 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GridLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_alignParentStart="true"
     android:layout_alignParentTop="true"
     android:padding="@dimen/padding"
-    android:columnCount="3">
+    android:orientation="vertical"
+    android:background="@color/Bianco">
 
-    <Button
-    android:layout_columnWeight="1"
-    android:layout_height="200dp"
-    android:text="CIAO" />
+
+<!--    <Button
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:height="200dp"
+        android:background="@drawable/ombra_button"
+        android:elevation="10dp"
+        android:gravity="left"
+        android:text="Titolo" />
 
     <Button
         android:layout_columnWeight="1"
-        android:layout_height="200dp"
-        android:text="CIAO" />
+        android:elevation="10dp"
+        android:gravity="left"
+        android:text="Titolo" />
 
     <Button
         android:layout_columnWeight="1"
-        android:layout_height="200dp"
-        android:text="CIAO" />
+        android:elevation="10dp"
+        android:gravity="left"
+        android:text="Titolo" />
 
-    <Button
+
+    <include
+        layout="@layout/layout_button_tecniche"
+        android:layout_width="48dp"
+        android:layout_height="124dp"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="5dp"
+        android:layout_height="124dp"/>
+
+    <include layout="@layout/layout_button_tecniche"
         android:layout_columnWeight="1"
-        android:layout_height="200dp"
-        android:text="CIAO" />
+        android:layout_height="124dp"
+        android:layout_width="48dp" />
 
-    <Button
+    <TextView
+        android:layout_width="5dp"
+        android:layout_height="124dp"/>
+
+    <include layout="@layout/layout_button_tecniche"
         android:layout_columnWeight="1"
-        android:layout_height="200dp"
-        android:text="CIAO" />
+        android:layout_height="124dp"
+        android:layout_width="48dp" /> -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-</GridLayout>
+        <android.support.v7.widget.CardView
+            android:id="@+id/metodo_1"
+            style="@style/CardView_Tecniche"
+            app:cardElevation="12dp"
+            app:cardPreventCornerOverlap="false">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@color/Bianco"
+                android:elevation="16dp">
+
+                <ImageView
+                    android:id="@+id/img"
+                    android:layout_width="58dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/_ic_launcher" />
+
+                <TextView
+                    android:id="@+id/titolo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="58dp"
+                    android:layout_marginTop="1dp"
+                    android:text="7 Passaggi per coltivare l'erba"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titolo"
+                    android:layout_toEndOf="@+id/img"
+                    android:text="12/09/2018"
+                    android:textSize="7dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/data"
+                    android:layout_toEndOf="@+id/img"
+                    android:text="Ecco 7 semplici passaggi per la coltivazione della Marijuana"
+                    android:textSize="10dp"
+                    android:minLines="2"
+                    android:maxLines="2"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v4.widget.Space
+            style="@style/Spazio_Tecniche"/>
+
+        <android.support.v7.widget.CardView
+            style="@style/CardView_Tecniche"
+            app:cardElevation="12dp"
+            app:cardPreventCornerOverlap="false">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@color/Bianco"
+                android:elevation="16dp">
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:layout_width="58dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/_ic_launcher" />
+
+                <TextView
+                    android:id="@+id/titolo1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="58dp"
+                    android:layout_marginTop="1dp"
+                    android:text="Guida rapida alla coltivazione"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/data1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titolo1"
+                    android:layout_toEndOf="@+id/img1"
+                    android:text="30/09/2018"
+                    android:textSize="7dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/data1"
+                    android:layout_toEndOf="@+id/img1"
+                    android:text="Come coltivare Marijuana in 10 passi"
+                    android:textSize="10dp"
+                    android:minLines="2"
+                    android:maxLines="2"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v4.widget.Space
+            style="@style/Spazio_Tecniche"/>
+
+        <android.support.v7.widget.CardView
+            style="@style/CardView_Tecniche"
+            app:cardElevation="12dp"
+            app:cardPreventCornerOverlap="false">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@color/Bianco"
+                android:elevation="16dp">
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_width="58dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/_ic_launcher" />
+
+                <TextView
+                    android:id="@+id/titolo2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="58dp"
+                    android:layout_marginTop="1dp"
+                    android:text="TITOLO____________________"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/data2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titolo2"
+                    android:layout_toEndOf="@+id/img2"
+                    android:text="Data di pubblicazione"
+                    android:textSize="7dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/data2"
+                    android:layout_toEndOf="@+id/img2"
+                    android:text="Eventuale descrizione_____________"
+                    android:textSize="10dp"
+                    android:minLines="2"
+                    android:maxLines="2"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v4.widget.Space
+            style="@style/Spazio_Tecniche"/>
+
+        <android.support.v7.widget.CardView
+            style="@style/CardView_Tecniche"
+            app:cardElevation="12dp"
+            app:cardPreventCornerOverlap="false">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@color/Bianco"
+                android:elevation="16dp">
+
+                <ImageView
+                    android:id="@+id/img3"
+                    android:layout_width="58dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/_ic_launcher" />
+
+                <TextView
+                    android:id="@+id/titolo3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="58dp"
+                    android:layout_marginTop="1dp"
+                    android:text="TITOLO____________________"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/data3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titolo3"
+                    android:layout_toEndOf="@+id/img3"
+                    android:text="Data di pubblicazione"
+                    android:textSize="7dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/data3"
+                    android:layout_toEndOf="@+id/img3"
+                    android:text="Eventuale descrizione_____________"
+                    android:textSize="10dp"
+                    android:minLines="2"
+                    android:maxLines="2"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v4.widget.Space
+            style="@style/Spazio_Tecniche"/>
+
+        <android.support.v7.widget.CardView
+            style="@style/CardView_Tecniche"
+            app:cardElevation="12dp"
+            app:cardPreventCornerOverlap="false">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@color/Bianco"
+                android:elevation="16dp">
+
+                <ImageView
+                    android:id="@+id/img4"
+                    android:layout_width="58dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/_ic_launcher" />
+
+                <TextView
+                    android:id="@+id/titolo4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="58dp"
+                    android:layout_marginTop="1dp"
+                    android:text="TITOLO____________________"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/data4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/titolo4"
+                    android:layout_toEndOf="@+id/img4"
+                    android:text="Data di pubblicazione"
+                    android:textSize="7dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/data4"
+                    android:layout_toEndOf="@+id/img4"
+                    android:text="Eventuale descrizione_____________"
+                    android:textSize="10dp"
+                    android:minLines="2"
+                    android:maxLines="2"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

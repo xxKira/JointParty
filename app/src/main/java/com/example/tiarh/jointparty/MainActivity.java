@@ -10,8 +10,10 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Layout;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.RelativeLayout;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -101,12 +103,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     private void setupViewPager(ViewPager viewPager) {
         PageAdapter adapter = new PageAdapter(getSupportFragmentManager());
-        adapter.addFragment(new HomeFragment(), "HomeFragment");
-        adapter.addFragment(new TecnicheFragment(), "TecnicheFragment");
-        adapter.addFragment(new LeggiFragment(), "LeggiFragment");
-        adapter.addFragment(new FattiSegretiFragment(), "FattiSegretiFragment");
-        adapter.addFragment(new ImpostazioniFragment(), "ImpostazioniFragment");
-        adapter.addFragment(new Metodo1Fragment(), "Metodo1Fragment");
+        adapter.addFragment(new HomeFragment(), "HomeFragment"); // 0
+        adapter.addFragment(new TecnicheFragment(), "TecnicheFragment"); // 1
+        adapter.addFragment(new LeggiFragment(), "LeggiFragment"); // 2
+        adapter.addFragment(new FattiSegretiFragment(), "FattiSegretiFragment"); // 3
+        adapter.addFragment(new ImpostazioniFragment(), "ImpostazioniFragment"); // 4
+        adapter.addFragment(new Metodo1Fragment(), "Metodo1Fragment"); // 5
+        adapter.addFragment(new Metodo2Fragment(), "Metodo2Fragment"); // 6
+        adapter.addFragment(new Metodo2ParagrafoFragment(), "Metodo2ParagrafoFragment"); // 7
         viewPager.setAdapter(adapter);
     }
 

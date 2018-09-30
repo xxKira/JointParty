@@ -47,7 +47,7 @@ public class SplashScreenActivity extends AppCompatActivity {
                 Intent r = new Intent(SplashScreenActivity.this, MainActivity.class);
                 startActivity(r);
             }
-        }, 3500);
+        }, 2500);
     }
 
     @Override

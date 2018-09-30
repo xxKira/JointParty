@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:padding="@dimen/padding"
+    android:orientation="vertical"
+    android:background="@color/Bianco">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/introduzione"
+            style="@style/CardView_Tecniche"
+            app:cardElevation="12dp"
+            app:cardPreventCornerOverlap="false">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="INTRODUZIONE"
+                android:textColor="#000000" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v4.widget.Space
+            style="@style/Spazio_Tecniche"/>
+
+        <android.support.v7.widget.CardView
+            style="@style/CardView_Tecniche"
+            app:cardElevation="12dp"
+            app:cardPreventCornerOverlap="false">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="TITOLO 1"
+                android:textColor="#000000" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v4.widget.Space
+            style="@style/Spazio_Tecniche"/>
+
+        <android.support.v7.widget.CardView
+            style="@style/CardView_Tecniche"
+            app:cardElevation="12dp"
+            app:cardPreventCornerOverlap="false">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="TITOLO 2"
+                android:textColor="#000000" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v4.widget.Space
+            style="@style/Spazio_Tecniche"/>
+
+        <android.support.v7.widget.CardView
+            style="@style/CardView_Tecniche"
+            app:cardElevation="12dp"
+            app:cardPreventCornerOverlap="false">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="TITOLO 3"
+                android:textColor="#000000" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v4.widget.Space
+            style="@style/Spazio_Tecniche"/>
+
+        <android.support.v7.widget.CardView
+            style="@style/CardView_Tecniche"
+            app:cardElevation="12dp"
+            app:cardPreventCornerOverlap="false">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="TITOLO 4"
+                android:textColor="#000000" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v4.widget.Space
+            style="@style/Spazio_Tecniche"/>
+
+        <android.support.v7.widget.CardView
+            style="@style/CardView_Tecniche"
+            app:cardElevation="12dp"
+            app:cardPreventCornerOverlap="false">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="TITOLO 5"
+                android:textColor="#000000" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v4.widget.Space
+            style="@style/Spazio_Tecniche"/>
+
+        <android.support.v7.widget.CardView
+            style="@style/CardView_Tecniche"
+            app:cardElevation="12dp"
+            app:cardPreventCornerOverlap="false">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="TITOLO 6"
+                android:textColor="#000000" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v4.widget.Space
+            style="@style/Spazio_Tecniche"/>
+
+        <android.support.v7.widget.CardView
+            style="@style/CardView_Tecniche"
+            app:cardElevation="12dp"
+            app:cardPreventCornerOverlap="false">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="TITOLO 7"
+                android:textColor="#000000" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v4.widget.Space
+            style="@style/Spazio_Tecniche"/>
+
+        <android.support.v7.widget.CardView
+            style="@style/CardView_Tecniche"
+            app:cardElevation="12dp"
+            app:cardPreventCornerOverlap="false">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="TITOLO 8"
+                android:textColor="#000000" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v4.widget.Space
+            style="@style/Spazio_Tecniche"/>
+
+        <android.support.v7.widget.CardView
+            style="@style/CardView_Tecniche"
+            app:cardElevation="12dp"
+            app:cardPreventCornerOverlap="false">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="TITOLO 9"
+                android:textColor="#000000" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v4.widget.Space
+            style="@style/Spazio_Tecniche"/>
+
+        <android.support.v7.widget.CardView
+            style="@style/CardView_Tecniche"
+            app:cardElevation="12dp"
+            app:cardPreventCornerOverlap="false">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="TITOLO 10"
+                android:textColor="#000000" />
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>
