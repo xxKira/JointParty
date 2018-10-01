@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingTop="@dimen/padding"
     android:paddingBottom="@dimen/padding"
     android:paddingStart="@dimen/padding"
     android:paddingEnd="@dimen/padding">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="34dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/freccia_avanti" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -44,30 +57,30 @@
                 android:src="@drawable/metodo1_passo1"
                 android:layout_below="@id/metodo1_titolo1"/>
 
-<!-- METODO 1 PASSO 2
-            <TextView
-                android:id="@+id/metodo1_sottotitolo2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/metodo1_immagine1"
-                android:padding="@dimen/padding"
-                android:text="@string/sottoTitolo_metodo1_passo2"
-                android:textAppearance="@android:style/TextAppearance" />
+            <!-- METODO 1 PASSO 2
+                        <TextView
+                            android:id="@+id/metodo1_sottotitolo2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/metodo1_immagine1"
+                            android:padding="@dimen/padding"
+                            android:text="@string/sottoTitolo_metodo1_passo2"
+                            android:textAppearance="@android:style/TextAppearance" />
 
-            <ImageView
-                android:id="@+id/metodo1_immagine2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:src="@drawable/metodo1_passo2"
-                android:layout_below="@id/metodo1_sottotitolo2"/>
+                        <ImageView
+                            android:id="@+id/metodo1_immagine2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/metodo1_passo2"
+                            android:layout_below="@id/metodo1_sottotitolo2"/>
 
-            <TextView
-                android:id="@+id/metodo1_contenuto2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/metodo1_immagine2"
-                android:text="@string/contenuto_metodo1_passo2"
-                android:lineSpacingExtra="5sp" /> -->
+                        <TextView
+                            android:id="@+id/metodo1_contenuto2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/metodo1_immagine2"
+                            android:text="@string/contenuto_metodo1_passo2"
+                            android:lineSpacingExtra="5sp" /> -->
 
 <!-- METODO 1 PASSO 3
             <TextView

@@ -1,6 +1,5 @@
 package com.example.tiarh.jointparty;
 
-import android.content.Context;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
