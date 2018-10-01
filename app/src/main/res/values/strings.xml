@@ -15,12 +15,12 @@
 
 <!-- PASSO 1 -->
     <string name="titolo_metodo1">7 Semplici passaggi per coltivare l\'erba</string>
-    <string name="sottoTitolo_metodo1_passo1">PASSO 1: SCEGLIERE I SEMI DI CANNABIS</string>
+    <string name="sottoTitolo_metodo1_passo1">1: SCEGLIERE I SEMI DI CANNABIS</string>
     <string name="contenuto_metodo1_passo1">La scelta a disposizione è straordinaria. Sativa, indica, ruderalis, ogni tipo di ibrido, tutto disponibile in un semplice click. Saprete già cosa vi piace dalla vostra esperienza personale. Quali varietà sono state più adatte al vostro umore e necessità in passato? Quali varietà hanno fornito un sollievo soddisfacente per i vostri disturbi fisici? Questo è probabilmente un buon punto per iniziare.
 Tenendo a mente il vostro gusto personale, iniziate a pensare alle vostre condizioni di coltivazione. Volete coltivare in un piccolo armadio dove le piante piccole e a rapida maturazione come le varietà autofiorenti o le indica saranno più adatte per lo spazio ristretto? O avete un bel giardino dove poter coltivare una o più varietà giganti direttamente nel terreno o in larghi vasi?</string>
 
 <!-- PASSO 2 -->
-    <string name="sottoTitolo_metodo1_passo2">PASSO 2: NOZIONI FONDAMENTALI SULLA CANNABIS</string>
+    <string name="sottoTitolo_metodo1_passo2">2: NOZIONI FONDAMENTALI SULLA CANNABIS</string>
     <string name="contenuto_metodo1_passo2">Per coltivare al meglio ed ottenere le gemme più succose, dovete sapere che la vostra amata cannabis ha bisogno di alcuni elementi fondamentali.\n
         \n
         <b>LUCE:</b> Per una crescita vegetativa sana, la marijuana ha bisogno di oltre dodici ore di luce in un periodo temporale di ventiquattro ore. In ambiente chiuso ciò può essere controllato da voi tramite dei timer. La germinazione all\'aperto deve essere rinviata fino a quando le piante potranno essere esposte ad oltre dodici ore di luce diurna e ricevere almeno otto ore di luce solare diretta al giorno.\n
@@ -49,7 +49,7 @@ Tenendo a mente il vostro gusto personale, iniziate a pensare alle vostre condiz
     </string>
 
 <!-- PASSO 3 -->
-    <string name="sottoTitolo_metodo1_passo3">PASSO 3: LUCI PER LA COLTIVAZIONE DI CANNABIS INDOOR</string>
+    <string name="sottoTitolo_metodo1_passo3">3: LUCI PER LA COLTIVAZIONE DI CANNABIS INDOOR</string>
     <string name="contenuto_metodo1_passo3">Grazie alla legalizzazione, c\'è stato un boom nella scelta di luci e camere di coltivazione per coltivare cannabis indoor.\n
         \n
         Qui potete scegliere in base al budget che avete a disposizione.\n
@@ -62,7 +62,7 @@ Tenendo a mente il vostro gusto personale, iniziate a pensare alle vostre condiz
     </string>
 
 <!-- PASSO 4 -->
-    <string name="sottoTitolo_metodo1_passo4">PASSO 4: GERMINAZIONE E PIANTINE DI MARIJUANA</string>
+    <string name="sottoTitolo_metodo1_passo4">4: GERMINAZIONE E PIANTINE DI MARIJUANA</string>
     <string name="contenuto_metodo1_passo4">All\'inizio della vostra avventura nella coltivazione della cannabis, c\'è la germinazione dei semi. Ogni seme contiene tutte le informazioni necessarie per formare la varietà di pianta che avete scelto. Gli servono solo le giuste condizioni ambientali, e inizierà il suo ciclo vitale. I semi non germoglieranno finché non sono stati raggiunti tre specifici obiettivi. Acqua, corretta temperatura (calore), e buon posizionamento.\n
         \n
         Coltivare la cannabis è un processo naturale, senza regole rigide. Non è un sistema lineare che va semplicemente imparato, ma un\'arte da padroneggiare con l\'esperienza. Esistono vari metodi, tutti ugualmente efficaci, per far germogliare la cannabis. Con il passare del tempo scoprirete il metodo più adatto a voi.\n
@@ -81,7 +81,7 @@ Tenendo a mente il vostro gusto personale, iniziate a pensare alle vostre condiz
     </string>
 
 <!-- PASSO 5 -->
-    <string name="sottoTitolo_metodo1_passo5">PASSO 5: LA FASE VEGETATIVA DELLA CANNABIS</string>
+    <string name="sottoTitolo_metodo1_passo5">5: LA FASE VEGETATIVA DELLA CANNABIS</string>
     <string name="contenuto_metodo1_passo5">Nel momento in cui le foglie verdi incontrano la luce, inizia la vera fotosintesi. La pianta avvia il suo metabolismo ed inizia la fase vegetativa.\n
         \n
         <b>INDOORS:</b> Le luci vanno impostate ad un regime di diciotto ore di luce, e sei ore di buio. Ciò non va necessariamente coordinato con le ore diurne e notturne reali, potete impostare il ciclo luce/buio come meglio preferite. Attivando le apparecchiature elettriche nelle ore non di punta potrete risparmiare parecchi soldi.\n
@@ -98,7 +98,7 @@ Tenendo a mente il vostro gusto personale, iniziate a pensare alle vostre condiz
     </string>
 
 <!-- PASSO 6 -->
-    <string name="sottoTitolo_metodo1_passo6">PASSO 6: LA FASE DI FIORITURA IN UNA PIANTA DI MARIJUANA SANA</string>
+    <string name="sottoTitolo_metodo1_passo6">6: LA FASE DI FIORITURA IN UNA PIANTA DI MARIJUANA SANA</string>
     <string name="contenuto_metodo1_passo6">La fioritura è l\'ultima fase di crescita della pianta di marijuana. Questo sarà un periodo emozionante, pieno di aromi che iniziano a formarsi. Iniziano inoltre ad emergere interessanti disposizioni floreali, in base alla varietà che si sta coltivando. La fase di fioritura ha stadi caratteristici comuni a tutte le piante di cannabis, ed inizia quando la fase vegetativa è terminata.\n
         \n
         All\'aperto il primo stadio di fioritura può essere notato quando il calore estivo giunge al termine e si avvicina l\'autunno. Al chiuso, potete controllare l\'inizio della fase di fioritura cambiando l\'orario di illuminazione, impostando un fotoperiodo di dodici ore di luce e dodici ore di buio. A seconda della specie, la cannabis può fiorire in risposta a tre possibili caratteristiche.\n
@@ -125,7 +125,7 @@ Tenendo a mente il vostro gusto personale, iniziate a pensare alle vostre condiz
     </string>
 
 <!-- PASSO 7 -->
-    <string name="sottoTitolo_metodo1_passo7">PASSO 7: RACCOLTA, ESSICCAZIONE &amp; TRATTAMENTO PER GEMME DI QUALITÀ</string>
+    <string name="sottoTitolo_metodo1_passo7">7: RACCOLTA, ESSICCAZIONE &amp; TRATTAMENTO PER GEMME DI QUALITÀ</string>
     <string name="contenuto_metodo1_passo7">Durante le ultime settimane, i nutrimenti vengono ignorati e la vostra pianta dovrà essere innaffiata con acqua pura. Ciò garantirà un sapore genuino delle gemme, privo di retrogusti salati o di sostanze nutritive.\n
         \n
         <b>Quando è matura la cannabis?</b>\n

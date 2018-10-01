@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:padding="@dimen/padding"
+    android:orientation="vertical"
+    android:background="@color/Bianco">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/paragrafo1"
+            style="@style/CardView_Tecniche"
+            app:cardElevation="12dp"
+            app:cardPreventCornerOverlap="false">
+
+            <TextView
+                style="@style/TextView_Tecniche"
+                android:text="@string/sottoTitolo_metodo1_passo1"
+                />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v4.widget.Space
+            style="@style/Spazio_Tecniche"/>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/paragrafo2"
+            style="@style/CardView_Tecniche"
+            app:cardElevation="12dp"
+            app:cardPreventCornerOverlap="false">
+
+            <TextView
+                style="@style/TextView_Tecniche"
+                android:text="@string/sottoTitolo_metodo1_passo2" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v4.widget.Space
+            style="@style/Spazio_Tecniche"/>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/paragrafo3"
+            style="@style/CardView_Tecniche"
+            app:cardElevation="12dp"
+            app:cardPreventCornerOverlap="false">
+
+            <TextView
+                style="@style/TextView_Tecniche"
+                android:text="@string/sottoTitolo_metodo1_passo3" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v4.widget.Space
+            style="@style/Spazio_Tecniche"/>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/paragrafo4"
+            style="@style/CardView_Tecniche"
+            app:cardElevation="12dp"
+            app:cardPreventCornerOverlap="false">
+
+            <TextView
+                style="@style/TextView_Tecniche"
+                android:text="@string/sottoTitolo_metodo1_passo4"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v4.widget.Space
+            style="@style/Spazio_Tecniche"/>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/paragrafo5"
+            style="@style/CardView_Tecniche"
+            app:cardElevation="12dp"
+            app:cardPreventCornerOverlap="false">
+
+            <TextView
+                style="@style/TextView_Tecniche"
+                android:text="@string/sottoTitolo_metodo1_passo5"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v4.widget.Space
+            style="@style/Spazio_Tecniche"/>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/paragrafo6"
+            style="@style/CardView_Tecniche"
+            app:cardElevation="12dp"
+            app:cardPreventCornerOverlap="false">
+
+            <TextView
+                style="@style/TextView_Tecniche"
+                android:text="@string/sottoTitolo_metodo1_passo6"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v4.widget.Space
+            style="@style/Spazio_Tecniche"/>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/paragrafo7"
+            style="@style/CardView_Tecniche"
+            app:cardElevation="12dp"
+            app:cardPreventCornerOverlap="false">
+
+            <TextView
+                style="@style/TextView_Tecniche"
+                android:text="@string/sottoTitolo_metodo1_passo7"/>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -28,7 +28,7 @@ public class Metodo2ParagrafoFragment extends Fragment implements View.OnClickLi
     public void onClick(View v) {
 
         switch(v.getId()) {
-            case R.id.introduzione: MainActivity.setViewPager(6);break;
+            case R.id.introduzione: MainActivity.setViewPager(8);break;
             default:break;
         }
     }

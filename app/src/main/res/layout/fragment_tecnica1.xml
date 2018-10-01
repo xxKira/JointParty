@@ -20,6 +20,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="@dimen/padding"
+                android:gravity="center"
                 android:background="@color/colorPrimary"
                 android:text="@string/titolo_metodo1"
                 android:textColor="@color/Bianco"
@@ -27,20 +28,12 @@
                 android:textAppearance="@android:style/TextAppearance.Large"/>
 
 <!-- METODO 1 PASSO 1 -->
-            <TextView
-                android:id="@+id/metodo1_sottotitolo1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/metodo1_titolo1"
-                android:padding="@dimen/padding"
-                android:text="@string/sottoTitolo_metodo1_passo1"
-                android:textAppearance="@android:style/TextAppearance" />
 
             <TextView
                 android:id="@+id/metodo1_contenuto1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/metodo1_sottotitolo1"
+                android:layout_below="@+id/metodo1_immagine1"
                 android:text="@string/contenuto_metodo1_passo1"
                 android:lineSpacingExtra="5sp" />
 
@@ -49,9 +42,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:src="@drawable/metodo1_passo1"
-                android:layout_below="@id/metodo1_contenuto1"/>
+                android:layout_below="@id/metodo1_titolo1"/>
 
-<!-- METODO 1 PASSO 2 -->
+<!-- METODO 1 PASSO 2
             <TextView
                 android:id="@+id/metodo1_sottotitolo2"
                 android:layout_width="match_parent"
@@ -74,9 +67,9 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/metodo1_immagine2"
                 android:text="@string/contenuto_metodo1_passo2"
-                android:lineSpacingExtra="5sp" />
+                android:lineSpacingExtra="5sp" /> -->
 
-<!-- METODO 1 PASSO 3 -->
+<!-- METODO 1 PASSO 3
             <TextView
                 android:id="@+id/metodo1_sottotitolo3"
                 android:layout_width="match_parent"
@@ -99,9 +92,9 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/metodo1_immagine3"
                 android:text="@string/contenuto_metodo1_passo3"
-                android:lineSpacingExtra="5sp" />
+                android:lineSpacingExtra="5sp" /> -->
 
-<!-- METODO 1 PASSO 4 -->
+<!-- METODO 1 PASSO 4
             <TextView
                 android:id="@+id/metodo1_sottotitolo4"
                 android:layout_width="match_parent"
@@ -124,9 +117,9 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/metodo1_immagine4"
                 android:text="@string/contenuto_metodo1_passo4"
-                android:lineSpacingExtra="5sp" />
+                android:lineSpacingExtra="5sp" /> -->
 
-<!-- METODO 1 PASSO 5-->
+<!-- METODO 1 PASSO 5
             <TextView
                 android:id="@+id/metodo1_sottotitolo5"
                 android:layout_width="match_parent"
@@ -149,9 +142,9 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/metodo1_immagine5"
                 android:text="@string/contenuto_metodo1_passo5"
-                android:lineSpacingExtra="5sp" />
+                android:lineSpacingExtra="5sp" />-->
 
-<!-- METODO 1 PASSO 6-->
+<!-- METODO 1 PASSO 6
             <TextView
                 android:id="@+id/metodo1_sottotitolo6"
                 android:layout_width="match_parent"
@@ -174,9 +167,9 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/metodo1_immagine6"
                 android:text="@string/contenuto_metodo1_passo6"
-                android:lineSpacingExtra="5sp" />
+                android:lineSpacingExtra="5sp" />-->
 
-<!-- METODO 1 PASSO 6-->
+<!-- METODO 1 PASSO 6
             <TextView
                 android:id="@+id/metodo1_sottotitolo7"
                 android:layout_width="match_parent"
@@ -199,7 +192,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/metodo1_immagine7"
                 android:text="@string/contenuto_metodo1_passo7"
-                android:lineSpacingExtra="5sp" />
+                android:lineSpacingExtra="5sp" /> -->
 
         </RelativeLayout>
 

@@ -62,6 +62,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     public void onBackPressed() {
 
+
+
         if (mDrawerLayout.isDrawerOpen(GravityCompat.START)) {
             mDrawerLayout.closeDrawer(GravityCompat.START);
         } else if (!mDrawerLayout.isDrawerOpen(GravityCompat.START)) {
@@ -108,9 +110,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         adapter.addFragment(new LeggiFragment(), "LeggiFragment"); // 2
         adapter.addFragment(new FattiSegretiFragment(), "FattiSegretiFragment"); // 3
         adapter.addFragment(new ImpostazioniFragment(), "ImpostazioniFragment"); // 4
-        adapter.addFragment(new Metodo1Fragment(), "Metodo1Fragment"); // 5
-        adapter.addFragment(new Metodo2Fragment(), "Metodo2Fragment"); // 6
+        adapter.addFragment(new Metodo1ParagrafoFragment(), "Metodo1ParagrafoFragment"); // 5
+        adapter.addFragment(new Metodo1Fragment(), "Metodo1Fragment"); // 6
         adapter.addFragment(new Metodo2ParagrafoFragment(), "Metodo2ParagrafoFragment"); // 7
+        adapter.addFragment(new Metodo2Fragment(), "Metodo2Fragment"); // 8
         viewPager.setAdapter(adapter);
     }
 

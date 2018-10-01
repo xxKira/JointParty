@@ -28,8 +28,6 @@ public class TecnicheFragment extends Fragment implements View.OnClickListener {
         metodo_1.setOnClickListener(this);
         metodo_2.setOnClickListener(this);
 
-
-
         return view;
     }
 
@@ -37,7 +35,7 @@ public class TecnicheFragment extends Fragment implements View.OnClickListener {
     public void onClick(View v) {
 
         switch(v.getId()) {
-            case R.id.metodo_1: MainActivity.setViewPager(5); break;
+            case R.id.metodo_1: MainActivity.setViewPager(5); break; //5
             case R.id.metodo_2: MainActivity.setViewPager(7); break;
             default:break;
         }
