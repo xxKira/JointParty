@@ -4,6 +4,7 @@ package com.example.tiarh.jointparty;
 
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
@@ -12,8 +13,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Layout;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.RelativeLayout;
+
+import static com.example.tiarh.jointparty.Metodo1Fragment.avanti_metodo1;
+import static com.example.tiarh.jointparty.Metodo1Fragment.indietro_metodo1;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -61,9 +67,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     @Override
     public void onBackPressed() {
-
-
-
         if (mDrawerLayout.isDrawerOpen(GravityCompat.START)) {
             mDrawerLayout.closeDrawer(GravityCompat.START);
         } else if (!mDrawerLayout.isDrawerOpen(GravityCompat.START)) {
@@ -104,6 +107,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     ////////////////////////// FRAGMENT //////////////////////////
 
     private void setupViewPager(ViewPager viewPager) {
+
         PageAdapter adapter = new PageAdapter(getSupportFragmentManager());
         adapter.addFragment(new HomeFragment(), "HomeFragment"); // 0
         adapter.addFragment(new TecnicheFragment(), "TecnicheFragment"); // 1
